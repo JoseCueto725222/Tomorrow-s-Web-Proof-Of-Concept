@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width", initial-scale="1.0" />
+    <title>Web Animation Api Test - Portfolio themed</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://kit.fontawesome.com/786027e27b.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="hero">
+                <video autoplay loop muted plays-inline class="back-video" id="video1">
+                        <source src="images/[KH] 深海のリトルハーツ _ Little Hearts of the Abyss.mp4" type="video/mp4">
+                </video>
+                
+            
+
+                <nav>
+                    <img src="images/322000690_489951669954740_3249233418390338092_n.png" class="logo" width="100" height="100">
+                    <ul>
+                        <button class="empty"><li><a href="#header">Home</a></li></button>
+                        <button class="empty"><li><a href="#about">About Me</a></li></button>
+                        <button class="empty"><li><a href="#services">My Works</a></li></button>
+                        <button class="empty"><li><a href="#contact">Contact Me</a></li></button>
+                    </ul>
+                </nav>
+                <div class="content">
+                    <h1>kiolite.</h1>
+                    <a href="https://www.kingdomhearts.com/home/us/">Let Your Heart Be Your Guiding Key</a>
+                    
+                </div>  
+                
+        </div>
+    </div>
+    <div class="parallax"></div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/320680556_1358246024749627_1932748267240859664_n.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p class="desc">Lorem Ipsum is simply dummy text of the printing and hiim kioim parentless with 4 children (my cats)i probably have the tism idki drawi like kingdom hearts and you should toomy talents are crying and sleeping while standing up i love josehire me (y)typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            
+                            </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link desc" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links desc" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links desc" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab desc" id="skills">
+                            <ul>
+                                <li><span>Game Development</span><br>I have made many visual novels.</li>
+                                <li><span>Digital Art</span><br>It's my speciality, been doing it since 2014.</li>
+                                <li><span>Video Editing</span><br>Usually just for fun and personal use.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents desc" id="experience">
+                            <ul>
+                                <li><span>Zine Participation</span><br>A project where multiple artist band together to make individual art piece arounds a certain topic or theme.</li>
+                                <li><span>Commissions</span><br>People can request commissions from on something they want drawn.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents desc"  id="education">
+                            <ul>
+                                <li><span>Senoir High School Graduate</span><br>UIPS 2019-2020</li>
+                                <li><span>University</span><br>SAE 2022-Present</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    <div class="parallax"></div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-crop-alt desc"></i>
+                    <h2 class="desc">Game Development</h2>
+                    <p class="desc">Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem</p>
+                    <a href="https://kiolite.itch.io">Check Out My stuff</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt desc"></i>
+                    <h2 class="desc">Digital Art</h2>
+                    <p class="desc">Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem</p>
+                    <a href="https://twitter.com/kiolite_">Check Out My stuff</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt desc"></i>
+                    <h2 class="desc">Video Editing</h2>
+                    <p class="desc">Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem</p>
+                    <a href="https://www.youtube.com/@kiolite">Check Out My stuff</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title desc">Contact Me</h1>
+                    <p class="desc"><i class="fa-regular fa-paper-plane-top"></i>keilixiliek@gmail.com</p>
+                    <p class="desc"><i class="fa-sharp fa-solid fa-phone-volume"></i>0506526802</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/kiolite_/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/kiolite_"><i class="fa-brands fa-twitter-square"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+
+</body>
+</html>
